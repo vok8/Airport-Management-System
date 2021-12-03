@@ -1,0 +1,119 @@
+DROP TABLE `Flight`;
+
+CREATE TABLE `Flight` (
+  `id` mediumint(8) unsigned NOT NULL auto_increment,
+  `F_Code` mediumint,
+  `Type` varchar(255) default NULL,
+  `Source` mediumint default NULL,
+  `Destination` mediumint default NULL,
+  `A_Hr` mediumint default NULL,
+  `D_Hr` mediumint default NULL,
+  `A_Date` varchar(255),
+  `D_Date` varchar(255),
+  `DT_No` mediumint default NULL,
+  `AT_No` mediumint default NULL,
+  `A_Min` mediumint default NULL,
+  `D_Min` mediumint default NULL,
+  PRIMARY KEY (`id`)
+) AUTO_INCREMENT=1;
+
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30001,"International",22009,22086,18,14,"16/01/2019","01/03/2019",8,1,21,39);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30002,"International",22004,22052,11,18,"03/07/2020","17/12/2018",2,1,40,55);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30003,"International",22079,22024,2,9,"09/06/2020","14/10/2019",8,10,34,23);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30004,"Domestic",22035,22087,12,12,"03/01/2019","27/04/2019",8,7,38,13);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30005,"International",22004,22048,0,21,"21/05/2020","06/08/2020",8,1,56,41);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30006,"International",22002,22044,4,0,"10/10/2020","31/01/2020",9,6,4,33);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30007,"Domestic",22072,22070,7,1,"18/10/2019","18/01/2019",5,9,17,14);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30008,"International",22093,22027,1,21,"26/03/2020","08/04/2020",7,5,35,14);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30009,"Domestic",22079,22054,8,6,"14/11/2019","12/01/2020",10,1,18,58);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30010,"Domestic",22060,22051,9,23,"31/08/2019","19/09/2019",7,3,13,18);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30011,"Domestic",22046,22084,19,20,"03/02/2019","28/01/2019",1,6,46,41);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30012,"International",22095,22071,23,7,"28/06/2020","11/10/2019",6,7,6,47);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30013,"Domestic",22015,22037,6,4,"17/12/2018","04/01/2019",7,9,58,3);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30014,"Domestic",22022,22005,16,20,"16/10/2019","19/01/2019",10,2,57,30);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30015,"Domestic",22046,22052,3,22,"08/10/2019","02/04/2020",2,3,8,50);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30016,"Domestic",22012,22095,7,15,"15/11/2020","13/10/2020",8,1,27,39);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30017,"International",22020,22001,13,10,"09/03/2019","15/04/2020",6,8,27,37);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30018,"International",22100,22045,9,8,"12/02/2020","29/07/2020",1,1,17,40);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30019,"Domestic",22010,22012,12,0,"18/10/2019","21/10/2020",1,4,38,11);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30020,"Domestic",22036,22071,8,15,"22/09/2020","05/12/2018",10,4,26,35);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30021,"International",22035,22083,16,10,"23/04/2020","03/08/2019",8,10,27,40);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30022,"Domestic",22008,22078,18,13,"25/12/2019","25/07/2020",1,3,3,45);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30023,"Domestic",22020,22002,18,12,"17/07/2020","09/08/2019",3,1,19,37);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30024,"International",22095,22090,4,16,"25/06/2020","17/09/2020",8,1,4,25);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30025,"International",22069,22025,16,23,"18/11/2020","04/04/2020",3,8,19,23);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30026,"Domestic",22010,22054,7,22,"24/10/2019","30/09/2020",5,2,6,57);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30027,"Domestic",22012,22085,9,19,"24/03/2020","17/12/2019",1,2,24,23);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30028,"International",22055,22007,15,15,"16/12/2018","06/05/2019",1,10,14,41);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30029,"International",22002,22069,14,13,"06/01/2019","28/07/2020",9,8,48,52);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30030,"Domestic",22095,22088,22,21,"29/02/2020","09/09/2020",10,2,24,41);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30031,"Domestic",22081,22041,15,4,"09/04/2019","20/01/2019",10,3,11,44);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30032,"Domestic",22081,22057,4,10,"27/02/2019","16/09/2020",8,5,19,38);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30033,"International",22092,22030,6,7,"27/01/2020","08/01/2019",6,1,27,58);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30034,"International",22100,22079,8,7,"30/01/2019","18/07/2020",3,9,23,52);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30035,"Domestic",22087,22020,12,18,"23/10/2019","14/01/2019",10,4,26,43);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30036,"International",22041,22084,16,22,"13/08/2020","29/01/2020",7,9,57,21);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30037,"International",22021,22093,21,23,"12/12/2019","26/03/2019",5,8,35,22);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30038,"International",22058,22064,8,10,"31/01/2019","25/07/2019",10,3,12,38);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30039,"Domestic",22050,22063,8,22,"20/07/2019","02/04/2019",7,4,49,28);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30040,"International",22005,22016,4,22,"25/12/2018","30/06/2019",8,9,7,45);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30041,"International",22096,22020,5,19,"21/02/2020","11/12/2019",6,7,24,44);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30042,"International",22029,22031,11,14,"22/07/2019","24/07/2020",5,1,25,57);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30043,"Domestic",22095,22029,18,20,"04/02/2019","13/07/2020",1,1,21,9);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30044,"International",22029,22064,2,19,"13/05/2019","18/02/2019",6,10,38,10);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30045,"Domestic",22085,22033,12,12,"28/07/2019","14/06/2020",8,6,43,14);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30046,"International",22067,22035,16,23,"12/07/2019","02/07/2020",8,9,25,29);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30047,"International",22034,22031,16,22,"16/01/2020","16/02/2019",2,1,2,7);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30048,"International",22092,22049,9,21,"14/07/2020","26/09/2019",5,1,30,47);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30049,"Domestic",22012,22057,10,16,"15/03/2019","22/03/2020",2,7,8,39);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30050,"Domestic",22021,22032,20,1,"25/09/2019","05/03/2019",4,5,17,2);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30051,"International",22050,22018,19,15,"17/07/2019","26/10/2020",1,8,46,47);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30052,"Domestic",22040,22008,17,15,"29/11/2018","19/05/2020",8,8,29,24);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30053,"Domestic",22020,22027,7,12,"07/01/2020","25/06/2020",5,10,22,43);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30054,"International",22057,22045,16,15,"05/07/2019","28/08/2019",6,7,45,29);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30055,"Domestic",22042,22087,8,22,"06/10/2020","28/06/2019",5,8,31,25);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30056,"International",22091,22049,19,2,"14/05/2019","16/02/2020",1,9,45,15);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30057,"Domestic",22023,22095,6,13,"15/08/2019","20/10/2019",1,4,58,39);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30058,"Domestic",22014,22093,22,7,"20/08/2020","13/05/2019",9,5,21,57);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30059,"International",22004,22004,17,1,"08/11/2020","31/12/2019",3,1,45,23);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30060,"International",22080,22012,0,21,"16/09/2019","08/12/2018",9,1,0,52);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30061,"Domestic",22026,22079,20,2,"12/11/2019","22/11/2020",8,5,54,42);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30062,"International",22084,22062,20,11,"03/12/2018","27/03/2019",5,8,29,26);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30063,"Domestic",22040,22037,12,14,"30/08/2019","20/12/2018",8,7,52,9);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30064,"Domestic",22073,22037,1,5,"11/11/2019","12/10/2020",4,7,16,58);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30065,"International",22018,22085,5,19,"02/08/2019","09/04/2019",8,6,43,38);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30066,"International",22052,22085,0,22,"22/09/2019","05/09/2020",9,2,54,57);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30067,"International",22088,22094,4,19,"12/04/2020","12/06/2019",9,6,49,1);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30068,"Domestic",22062,22073,2,17,"12/02/2020","09/05/2020",8,3,20,3);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30069,"International",22053,22098,18,19,"07/02/2019","27/06/2019",7,3,5,47);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30070,"Domestic",22057,22062,3,6,"01/12/2019","16/03/2019",9,4,21,32);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30071,"Domestic",22090,22016,6,16,"30/06/2020","29/08/2020",10,1,57,17);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30072,"Domestic",22086,22071,16,19,"08/06/2019","20/02/2020",2,7,11,2);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30073,"Domestic",22084,22082,20,18,"23/01/2020","09/11/2019",1,10,19,50);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30074,"International",22050,22061,1,18,"02/02/2019","10/07/2020",8,6,31,42);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30075,"International",22029,22057,10,23,"10/11/2020","03/03/2019",2,3,32,28);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30076,"Domestic",22067,22034,22,8,"23/06/2020","12/02/2020",5,9,27,10);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30077,"Domestic",22056,22018,16,12,"18/05/2020","07/02/2019",2,2,46,56);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30078,"International",22050,22022,21,6,"21/08/2020","14/05/2020",10,7,57,12);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30079,"Domestic",22019,22070,8,16,"24/12/2018","24/07/2020",4,10,25,19);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30080,"International",22054,22090,18,12,"24/10/2019","21/08/2019",2,5,49,14);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30081,"International",22042,22019,23,17,"27/02/2020","31/07/2019",9,3,11,51);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30082,"International",22025,22016,8,19,"04/08/2019","09/10/2020",10,10,18,41);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30083,"International",22050,22082,14,3,"14/05/2019","19/05/2019",9,10,19,9);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30084,"Domestic",22028,22071,22,18,"02/12/2018","03/06/2019",10,2,36,58);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30085,"International",22028,22035,9,13,"22/02/2020","07/10/2019",3,6,54,51);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30086,"International",22054,22001,10,19,"26/09/2020","05/08/2019",1,4,49,40);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30087,"Domestic",22074,22046,21,18,"17/12/2018","22/09/2020",7,1,10,40);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30088,"International",22013,22020,15,9,"26/04/2020","10/06/2020",9,2,43,53);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30089,"Domestic",22065,22050,1,17,"20/11/2020","24/12/2019",7,5,56,15);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30090,"International",22089,22020,3,0,"30/03/2020","23/02/2020",1,1,36,33);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30091,"International",22098,22098,10,10,"14/06/2019","05/03/2020",10,1,30,56);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30092,"International",22061,22064,15,22,"25/05/2019","10/07/2020",5,1,45,31);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30093,"International",22075,22032,18,21,"04/05/2019","09/09/2019",9,3,26,28);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30094,"Domestic",22020,22033,5,19,"22/03/2020","20/03/2020",1,4,47,11);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30095,"International",22051,22055,10,0,"03/11/2019","25/05/2020",2,1,1,48);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30096,"Domestic",22059,22047,0,10,"23/04/2019","08/09/2020",5,1,32,51);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30097,"Domestic",22020,22070,14,22,"06/02/2019","13/04/2020",9,1,33,3);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30098,"International",22025,22038,5,17,"07/09/2020","26/07/2019",1,8,8,22);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30099,"International",22014,22029,18,22,"25/05/2019","14/06/2019",1,8,55,21);
+INSERT INTO `Flight` (`F_Code`,`Type`,`Source`,`Destination`,`A_Hr`,`D_Hr`,`A_Date`,`D_Date`,`DT_No`,`AT_No`,`A_Min`,`D_Min`) VALUES (30100,"International",22059,22006,18,9,"29/10/2019","26/10/2020",6,9,37,9);
